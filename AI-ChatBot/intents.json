@@ -1,0 +1,34 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "good morning"],
+      "responses": ["Hello! How can I help you today?"]
+    },
+    {
+      "tag": "admission",
+      "patterns": ["How can I apply for admission?", "admission process", "college eligibility"],
+      "responses": ["Please visit your college website for admission details and eligibility."]
+    },
+    {
+      "tag": "fees",
+      "patterns": ["What is the fee?", "How can I pay fees?", "college fee details"],
+      "responses": ["Please contact the college accounts department for fee details."]
+    },
+    {
+      "tag": "exams",
+      "patterns": ["When are the exams?", "exam timetable", "exam dates"],
+      "responses": ["Please check your college website for the latest examination timetable."]
+    },
+    {
+      "tag": "attendance",
+      "patterns": ["How can I check attendance?", "attendance percentage", "minimum attendance"],
+      "responses": ["Check your student portal for attendance details and college attendance requirements."]
+    },
+    {
+      "tag": "courses",
+      "patterns": ["What courses are available?", "engineering courses", "available programs"],
+      "responses": ["Visit your college website to explore available courses."]
+    }
+  ]
+}
